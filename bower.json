@@ -18,5 +18,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "juicy-html": "Juicy/juicy-html#~0.0.20141119"
+  }
 }
