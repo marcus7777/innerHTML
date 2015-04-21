@@ -1,0 +1,12 @@
+<polymer-element name="inner-html" attributes="innerhtml">
+    <template>
+        <div id="content"></div>
+    </template>
+    <script>
+        Polymer('some-thing', {
+            ready: function(){
+                this.$.content.innerHTML = this['inner-html'];
+            }
+        });
+    </script>
+</polymer-element>
