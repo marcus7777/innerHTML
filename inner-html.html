@@ -1,12 +1,9 @@
 <link rel="import" href="../juicy-html/juicy-html.html">
 <polymer-element name="inner-html" attributes="innerhtml">
-    <template is="juicy-html" id="content">
+    <template is="juicy-html" content="{{ innerhtml }} >
     </template>
     <script>
       Polymer('inner-html', {
-            ready: function(){
-                this.$.content.innerHTML = this['innerhtml'];
-            }
-        });
+      });
     </script>
 </polymer-element>
