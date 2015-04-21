@@ -3,9 +3,9 @@
         <div id="content"></div>
     </template>
     <script>
-        Polymer('some-thing', {
+      Polymer('inner-html', {
             ready: function(){
-                this.$.content.innerHTML = this['inner-html'];
+                this.$.content.innerHTML = this['innerhtml'];
             }
         });
     </script>
